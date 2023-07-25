@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Lecturers from "../components/Lecturers";
 import { lecturerData } from "../helper/data";
+import { Navbar } from "react-bootstrap";
 
 
 
@@ -10,7 +11,8 @@ const [lecturers, setLecturers] = useState(lecturerData)
 
   return (
     <main className="text-center mt-2">
-      <h1 className="display-5 text-danger">BOZKAYA EDUCATION CENTER</h1>
+      <Navbar/>
+    
     
    <Lecturers  lecturers={lecturers}/>
     </main>
