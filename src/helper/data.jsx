@@ -1,4 +1,4 @@
-export const appointmentData = [
+export const officeHoursData = [
   {
     id: 1,
     patient: "Barry Vermont",
@@ -22,7 +22,7 @@ export const appointmentData = [
   },
 ]
 
-export const doctorData = [
+export const lecturerData = [
   {
     id: 1,
     name: "Aziz Sancar",
@@ -33,13 +33,13 @@ export const doctorData = [
     id: 2,
     name: "Cahit Arf",
     dep: "Mathematic",
-    img: "./img/dr2.jpg",
+    img: "./img/tr2.jpg",
   },
   {
     id: 3,
     name: "Albert Einstine",
     dep: "Physics",
-    img: "./img/dr3.jpg",
+    img: "./img/albert.jpeg",
   },
   {
     id: 4,
@@ -49,8 +49,8 @@ export const doctorData = [
   },
   {
     id: 5,
-    name: "History",
-    dep: "İlber Ortaylı",
+    name: "İlber Ortaylı",
+    dep: "History",
     img: "./img/tr4.jpg",
   },
   {
@@ -63,13 +63,13 @@ export const doctorData = [
     id: 7,
     name: "Gregor Mendel",
     dep: "Biology",
-    img: "./img/mendel.jpg",
+    img: "./img/mendel.jpeg",
   },
   {
     id: 8,
     name: "Mozart",
     dep: "Music",
-    img: "./img/dr8.jpg",
+    img: "./img/Mozart.webp",
   },
   {
     id: 9,
