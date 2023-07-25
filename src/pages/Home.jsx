@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Lecturers from "../components/Lecturers";
 import { lecturerData } from "../helper/data";
-import { Navbar } from "react-bootstrap";
+import Navbar from "../components/Navbar";
+
 
 
 
