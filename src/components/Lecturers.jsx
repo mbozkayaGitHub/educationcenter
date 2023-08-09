@@ -11,7 +11,7 @@ const Lecturers = ({lecturers}) => {
          </h3>
     <Row className='justtify-content-center'> 
 {lecturers.map((tr)=> (
-    <Col key={tr.id}>
+    <Col key={tr.id} xs={6} sm={4} md={3}>
     <img 
     src={tr.img} alt={tr.name}
     className="lecturer-img"

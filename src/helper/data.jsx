@@ -39,7 +39,7 @@ export const lecturerData = [
     id: 3,
     name: "Albert Einstine",
     dep: "Physics",
-    img: "./img/albert.jpeg",
+    img: "./img/albert.jpg",
   },
   {
     id: 4,
@@ -63,13 +63,13 @@ export const lecturerData = [
     id: 7,
     name: "Gregor Mendel",
     dep: "Biology",
-    img: "./img/mendel.jpeg",
+    img: "./img/mendel.jpg",
   },
   {
     id: 8,
     name: "Mozart",
     dep: "Music",
-    img: "./img/Mozart.webp",
+    img: "./img/Mozart.jpg",
   },
   {
     id: 9,
