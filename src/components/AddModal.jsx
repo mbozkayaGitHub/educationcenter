@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, Form, Modal } from "react-bootstrap";
 
-const AddModal = () => {
+const AddModal = ({show}) => {
   return (
     <>
       <>
-        <Modal>
+        <Modal  show={show} >
           <Modal.Header closeButton>
             <Modal.Title className="text-danger">
               Reservation for ...
