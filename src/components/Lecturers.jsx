@@ -14,7 +14,7 @@ const Lecturers = ({lecturers}) => {
     <Col key={tr.id} xs={6} sm={4} md={3}>
     <img 
     src={tr.img} alt={tr.name}
-    className="lecturer-img"
+    className="img-thumbnail doctor-img"
     />
     <h5>{tr.name}</h5>
     <h6>{tr.dep}</h6>
