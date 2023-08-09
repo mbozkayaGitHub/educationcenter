@@ -5,11 +5,21 @@ import AddModal from './AddModal'
 const Lecturers = ({lecturers}) => {
 
 const [show, setShow] = useState(false)
-const handleShow = () => setShow(true)
 
-const handleClick = () => {
+const [selectedTrName, setSelectedTrName] = useState("")
+
+
+
+
+const handleShow = () => setShow(true)
+const handleClose = () => setShow(false)
+
+const handleClick = (trName) => {
   handleShow();
+  setSelectedTrName(trName)
 }
+
+console.log(selectedTrName);
 
   return (
     <Container className='p-2'>
@@ -24,7 +34,7 @@ const handleClick = () => {
     <img 
     src={tr.img} alt={tr.name}
     className="img-thumbnail lecturer-img"
-    onClick={()=> handleClick()}
+    onClick={()=> handleClick(tr.name)}
     />
     <h5>{tr.name}</h5>
     <h6>{tr.dep}</h6>
@@ -33,7 +43,7 @@ const handleClick = () => {
     </Row>
         
 
-        <AddModal show={show}/>
+        <AddModal show={show} handleClose={handleClose} selectedTrName={selectedTrName} />
         </Container>
   )
 }
