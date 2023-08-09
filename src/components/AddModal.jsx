@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Form, Modal } from "react-bootstrap";
 
-const AddModal = ({show,handleClose}) => {
+const AddModal = ({show,handleClose,selectedTrName}) => {
 
 const handleSubmit = (e) => {
     e.preventDefault()
@@ -15,7 +15,7 @@ const handleSubmit = (e) => {
         <Modal  show={show} onHide={handleClose} >
           <Modal.Header closeButton>
             <Modal.Title className="text-danger">
-              Reservation for ...
+              Reservation for {selectedTrName}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
