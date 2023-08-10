@@ -1,24 +1,24 @@
 export const officeHoursData = [
   {
     id: 1,
-    patient: "Barry Vermont",
+    student: "Harry Potter",
     day: new Date(),
     consulted: true,
-    doctor: "Dr. Hazel Valery",
+    lecturer: "Aziz Sancar",
   },
   {
     id: 2,
-    patient: "Harry Coming",
+    student: "Justin Bieber",
     day: new Date(),
     consulted: false,
-    doctor: "Dr. Jessica White",
+    lecturer: "Aristo",
   },
   {
     id: 3,
-    patient: "Aaron Black",
+    student: "Lionel Messi",
     day: new Date(),
     consulted: true,
-    doctor: "Dr. Jasmine Carpanter",
+    Lecturer: "Mozart",
   },
 ]
 
