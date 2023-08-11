@@ -19,7 +19,7 @@ const Home = () => {
       <Navbar />
 
       <Lecturers lecturers={lecturers} />
-      <OfficeHoursList/>
+      <OfficeHoursList officeHoursList={officeHoursList} setOfficeHoursList={setOfficeHoursList}/>
     </main>
   );
 };
