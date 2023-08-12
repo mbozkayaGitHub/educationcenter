@@ -10,9 +10,9 @@ const AddModal = ({show,handleClose,selectedTrName}) => {
 
 const handleSubmit = (e) => {
     e.preventDefault()
-
+handleClose()
 }
-
+console.log(selectedTrName);
 console.log(studentName,date);
   return (
     <>
