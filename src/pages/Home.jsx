@@ -18,7 +18,7 @@ const Home = () => {
     <main className="text-center mt-2">
       <Navbar />
 
-      <Lecturers lecturers={lecturers} />
+      <Lecturers lecturers={lecturers} officeHoursList={officeHoursList} />
       <OfficeHoursList officeHoursList={officeHoursList} setOfficeHoursList={setOfficeHoursList}/>
     </main>
   );

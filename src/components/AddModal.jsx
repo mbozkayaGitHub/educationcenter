@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
+import OfficeHoursList from "./OfficeHoursList";
 
 const AddModal = ({show,handleClose,selectedTrName}) => {
 
@@ -10,6 +11,14 @@ const AddModal = ({show,handleClose,selectedTrName}) => {
 
 const handleSubmit = (e) => {
     e.preventDefault()
+    setOfficeHoursList([
+      ...OfficeHoursList, {
+        id:officeHoursList.length + 1
+        student: studentName,
+        day:date,
+        cosulted:false
+      }
+    ])
 handleClose()
 }
 console.log(selectedTrName);
