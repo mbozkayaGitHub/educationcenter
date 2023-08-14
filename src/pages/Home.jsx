@@ -2,7 +2,7 @@ import { useState } from "react";
 import Lecturers from "../components/Lecturers";
 import { lecturerData, officeHoursData } from "../helper/data";
 import Navbar from "../components/Navbar";
-import OfficeHoursList from "../components/OfficeHoursList";
+import OfficeHoursList from "./../components/OfficeHoursList";
 
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
 
   const [officeHoursList, setOfficeHoursList] = useState(officeHoursData)
 
+  console.log(setOfficeHoursList);
   console.log(officeHoursData);
 
   console.log(lecturers);

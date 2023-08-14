@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import AddModal from './AddModal'
-import OfficeHoursList from './OfficeHoursList';
+
 
 const Lecturers = ({lecturers,officeHoursList,setOfficeHoursList}) => {
 
@@ -10,7 +10,7 @@ const [show, setShow] = useState(false)
 const [selectedTrName, setSelectedTrName] = useState("")
 
 
-
+console.log(setOfficeHoursList);
 
 const handleShow = () => setShow(true)
 const handleClose = () => setShow(false)
