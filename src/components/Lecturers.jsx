@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import AddModal from './AddModal'
+import OfficeHoursList from './OfficeHoursList';
 
-const Lecturers = ({lecturers}) => {
+const Lecturers = ({lecturers,officeHoursList,setOfficeHoursList}) => {
 
 const [show, setShow] = useState(false)
 
@@ -43,7 +44,9 @@ console.log(selectedTrName);
     </Row>
         
 
-        <AddModal show={show} handleClose={handleClose} selectedTrName={selectedTrName} />
+        <AddModal show={show} handleClose={handleClose} selectedTrName={selectedTrName}
+        officeHoursList={officeHoursList}
+        setOfficeHoursList={setOfficeHoursList} />
         </Container>
   )
 }
