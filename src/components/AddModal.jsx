@@ -28,8 +28,8 @@ function AddModal({
         day: date,
         consulted: false,
         lecturer: selectedTrName,
-      },
-    ]);
+      }
+    ])
 
     handleClose();
   };
