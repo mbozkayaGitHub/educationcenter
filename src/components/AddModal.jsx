@@ -13,7 +13,7 @@ function AddModal({
   const [date, setDate] = useState("");
 
 
-  console.log(setOfficeHoursList);
+  console.log(setOfficeHoursList)
 
   console.log(selectedTrName);
  console.log(studentName, date);
