@@ -13,27 +13,26 @@ function AddModal({
   const [date, setDate] = useState("");
 
 
-  console.log(setOfficeHoursList)
 
   console.log(selectedTrName);
  console.log(studentName, date);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setOfficeHoursList([
-      ...officeHoursList,
+    e.preventDefault()
+    setOfficeHoursList(
+      [...officeHoursList,
       {
         id: officeHoursList.length + 1,
         student: studentName,
         day: date,
         consulted: false,
         lecturer: selectedTrName,
-      }
-    ])
+      },]
+      )
 
     handleClose();
   };
-
+  
   return (
     <>
       <Modal show={show} onHide={handleClose}>

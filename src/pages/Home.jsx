@@ -10,16 +10,16 @@ const Home = () => {
 
   const [officeHoursList, setOfficeHoursList] = useState(officeHoursData)
 
-  console.log(setOfficeHoursList);
   console.log(officeHoursData);
-
+console.log(setOfficeHoursList);
   console.log(lecturers);
 
   return (
     <main className="text-center mt-2">
       <Navbar />
 
-      <Lecturers lecturers={lecturers} officeHoursList={officeHoursList} />
+      <Lecturers lecturers={lecturers} officeHoursList={officeHoursList} 
+      setOfficeHoursList={setOfficeHoursList} />
       <OfficeHoursList officeHoursList={officeHoursList} setOfficeHoursList={setOfficeHoursList}/>
     </main>
   );

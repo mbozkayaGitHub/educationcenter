@@ -7,7 +7,7 @@ const Lecturers = ({ lecturers, officeHoursList, setOfficeHoursList }) => {
 
   const [selectedTrName, setSelectedTrName] = useState("");
 
-  console.log(setOfficeHoursList);
+  
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
