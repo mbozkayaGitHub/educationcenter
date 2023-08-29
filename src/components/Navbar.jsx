@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
 
     <div>
-      <div className="bg-primary text-white opacity-75 ">
+      <div className="bg-primary text-white opacity-75">
     <h1 className="display-5 ">
       BOZKAYA EDUCATION CENTER
     </h1>
