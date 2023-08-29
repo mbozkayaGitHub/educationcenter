@@ -21,9 +21,7 @@ const Lecturers = ({ lecturers, officeHoursList, setOfficeHoursList }) => {
 
   return (
     <Container className="p-2">
-      <h3 className="display-6 mb-3" style={{ color: "rgb(166,18.189" }}>
-        Lecturers
-      </h3>
+      
       <Row className="justtify-content-center">
         {lecturers.map((tr) => (
           <Col key={tr.id} xs={6} sm={4} md={3}>
