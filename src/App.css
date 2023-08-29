@@ -39,3 +39,9 @@
   padding: 0.5rem;
   transform: translate(-50%, -50%);
 }
+
+/*?  Stlye for NavBar */
+
+.navbar {
+  background-color: aliceblue;
+}
