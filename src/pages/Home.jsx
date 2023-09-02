@@ -3,6 +3,7 @@ import Lecturers from "../components/Lecturers";
 import { lecturerData, officeHoursData } from "../helper/data";
 import Navbar from "../components/Navbar";
 import OfficeHoursList from "./../components/OfficeHoursList";
+import Footer from "../components/styles/Footer";
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ console.log(setOfficeHoursList);
       <Lecturers lecturers={lecturers} officeHoursList={officeHoursList} 
       setOfficeHoursList={setOfficeHoursList} />
       <OfficeHoursList officeHoursList={officeHoursList} setOfficeHoursList={setOfficeHoursList}/>
+      <Footer/>
     </main>
   );
 };
