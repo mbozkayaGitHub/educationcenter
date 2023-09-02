@@ -1,8 +1,10 @@
 import React from 'react'
+import { StyledFooter } from './Footer.styled'
+
 
 const Footer = () => {
   return (
-    <div>
+    <StyledFooter>
       <div> <img src="" alt="logo" /></div>
 
       <div>
@@ -22,11 +24,11 @@ const Footer = () => {
           <li>Contact Us </li>
         </ul>
       </div>
-      Footer
+
+    //  SocialOcıns //
       
       
-      
-      </div>
+      </StyledFooter>
   )
 }
 
