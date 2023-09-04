@@ -22,6 +22,7 @@ img {
     width:20%;
     border-radius: 1rem;
     border-radius: none;
+    
 }
     
 `
