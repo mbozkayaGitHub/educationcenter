@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="shadow p-3 bg-primary text-white opacity-75 ">
+      <div className="shadow p-3 bg-primary text-white opacity-75">
         <div className="text-start"> <img src="../img/education.jpg" width="10%" alt="" />
         </div>
         <h1 className="display-5 fw-normal">BOZKAYA EDUCATION CENTER</h1>
