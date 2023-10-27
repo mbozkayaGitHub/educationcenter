@@ -1,3 +1,3 @@
-# Appointment App
+# Education Center App
 
 ##
