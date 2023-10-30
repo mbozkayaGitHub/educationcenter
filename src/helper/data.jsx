@@ -69,7 +69,7 @@ export const lecturerData = [
     id: 8,
     name: "Mozart",
     dep: "Music",
-    img: "./img/Mozart.jpg",
+    img: "./img/mozart.jpg",
   },
   {
     id: 9,
